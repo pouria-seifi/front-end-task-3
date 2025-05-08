@@ -9,7 +9,7 @@ interface ICurrency {
   id: number;
   title: string;
   title_fa: string;
-  code: string;
+  code: "USDT" | "IRT";
   tradable: boolean;
   for_test: boolean;
   image: string;
